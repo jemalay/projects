@@ -1,0 +1,16 @@
+make_user(
+    'Jemal Aytjanova',      # name
+    [                   # reviews
+        
+        # Westside restaurants
+        make_review('La Cascada Taqueria', 4.0),
+        make_review('Alborz', 4.5),
+        make_review('Cinnaholic', 4.5),
+        make_review('Suya African Caribbean Grill', 4.0),
+        make_review('Cafe Rio', 4.5),
+        # Southside restaurants
+        make_review('T-Toust', 4.5),
+        make_review('Durant Square - Asian Ghetto', 5.0),
+        
+    ]
+)
